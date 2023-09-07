@@ -29,7 +29,6 @@ export default function Topbar() {
                   height={24}
                 />
               </div>
-              <UserButton />
             </SignOutButton>
           </SignedIn>
         </div>
