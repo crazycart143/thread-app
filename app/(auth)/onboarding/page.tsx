@@ -1,11 +1,7 @@
 import React from "react";
 
-const page = () => {
-  return (
-    <div>
-      <h1 className="head-text">Onboarding</h1>
-    </div>
-  );
-};
+async function page() {
+  return <div className="head-text">page</div>;
+}
 
 export default page;
