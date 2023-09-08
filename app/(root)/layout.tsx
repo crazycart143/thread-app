@@ -23,14 +23,13 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <Topbar />
-        <main>
+        <main className="flex">
           <LeftSideBar />
           <section className="main-container">
             <div className="w-full max-w-4xl">{children}</div>
           </section>
           <RightSideBar />
         </main>
-        <Bottombar />
       </html>
     </ClerkProvider>
   );
