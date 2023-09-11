@@ -3,3 +3,12 @@ Install these packages
 pnpm install @clerk/nextjs
 pnpm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing
 pnpm install tailwindcss-animate 
+pnpm dlx shadcn-ui@latest init
+pnpm dlx shadcn-ui@latest add form  
+pnpm dlx shadcn-ui@latest add input
+pnpm dlx shadcn-ui@latest add textarea
+
+NOTE:
+
+shadcn overwrites tailwindconfig and globals.css so paste back the contents of tailwindconfig and globalscss
+
